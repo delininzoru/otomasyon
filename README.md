@@ -1,4 +1,5 @@
-# HYDROSMART PRO
-## Besleme Sürecini Yöneten Endüstriyel Kontrol Platformu
+# 🌱 HYDROSMART PRO
 
-Kullanım kılavuzu için [docs/index.md](docs/index.md) dosyasına bakın.
+📘 **Kullanım Kılavuzu:** [https://delininzoru.github.io/otomasyon/docs/index.md](https://delininzoru.github.io/otomasyon/docs/index.md)
+
+![HYDROSMART PRO](https://via.placeholder.com/800x200?text=HYDROSMART+PRO)
