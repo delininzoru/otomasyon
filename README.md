@@ -1,4 +1,5 @@
 📘 HYDROSMART PRO
+![HYDROSMART PRO Ürün Görseli](resimler/urun.jpg)
 Besleme Sürecini Yöneten Endüstriyel Kontrol Platformu
 KULLANIM KILAVUZU
 İÇİNDEKİLER
