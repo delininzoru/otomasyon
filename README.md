@@ -116,23 +116,20 @@ Hassasiyet	±0.5°C
 Çözünürlük	0.1°C
 4-20mA analog çıkış (opsiyonel PLC entegrasyonu için) |
 
-5. KUTU İÇERİĞİ
+4. KUTU İÇERİĞİ
 📦 HYDROSMART PRO Kontrol Ünitesi
-
 📦 pH/EC/Sıcaklık Transmitteri (RS-485 Modbus + 4-20mA çıkışlı)
-
 📦 pH Probu
-
 📦 EC Probu
-
 📦 PT100 Sıcaklık Probu
-
 📦 Kullanım Kılavuzu
-
 📦 Montaj Aparatı
 
 5.2. Röle Çıkışları (Kuru Kontak)
 Tüm röle çıkışları potansiyelsiz (kuru kontak) olup "Normalde Açık" (NO) konfigürasyondadır. Bağlayacağınız pompa, vana veya motorun güç gereksinimine göre harici kontaktör veya güç rölesi kullanmanız kesinlikle önerilir.
+
+5.1. Bağlantı Şeması
+[ GÖRSEL: Bağlantı şeması buraya eklenecek ]
 
 Röle	Fonksiyon	Açıklama
 R1	NPK-A Pompası	EC yükseltmek için kullanılan A besin pompası.
