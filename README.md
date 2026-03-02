@@ -118,11 +118,17 @@ Hassasiyet	±0.5°C
 
 5. KUTU İÇERİĞİ
 📦 HYDROSMART PRO Kontrol Ünitesi
+
 📦 pH/EC/Sıcaklık Transmitteri (RS-485 Modbus + 4-20mA çıkışlı)
+
 📦 pH Probu
+
 📦 EC Probu
+
 📦 PT100 Sıcaklık Probu
+
 📦 Kullanım Kılavuzu
+
 📦 Montaj Aparatı
 
 5.2. Röle Çıkışları (Kuru Kontak)
