@@ -1,7 +1,6 @@
-📘 HYDROSMART PRO
+📘 HYDROSMART PRO    www.drelitegrow.com   📞 TEKNİK DESTEK: 5337421687
 
-📞 TEKNİK DESTEK: 5337421687
-www.drelitegrow.com
+
 
 ⚠️ Bu kılavuzdaki tüm teknik terimler endüstriyel standartları ifade eder.
    Cihaz, akıllı karar katmanı ve güvenli PLC mimarisi ile çalışır.
