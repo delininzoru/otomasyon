@@ -1,4 +1,9 @@
 📘 HYDROSMART PRO
+📞 TEKNİK DESTEK: 5337421687
+    www.drelitegrow.com
+⚠️ Bu kılavuzdaki tüm teknik terimler endüstriyel standartları ifade eder.
+   Cihaz, akıllı karar katmanı ve güvenli PLC mimarisi ile çalışır.
+   
 ![HYDROSMART PRO](IMG20260115195311.jpg)
 
 Besleme Sürecini Yöneten Endüstriyel Kontrol Platformu
@@ -28,7 +33,7 @@ Montaj ve Bağlantılar
 
 6.1. Cihazın Enerjilendirilmesi
 
-6.2. Home Assistant'a Ekleme (ESPHome)
+6.2. Kablosuz Arayüze Bağlantı
 
 Arayüz ve Kontroller
 
@@ -87,11 +92,10 @@ Genel
 Özellik	Değer
 Besleme Gerilimi	12-24V DC
 Çalışma Sıcaklığı	-20°C - +60°C
-Kontrol Mimarisi	Mikrodenetleyici + PLC Destekli Güvenli IO
-Haberleşme	Wi-Fi (Home Assistant/ESPHome entegrasyonu)
-Kuru Kontak Çıkışı	8 Röle (NO - Normalde Açık)
-Maks. Röle Akımı	10A (Dirençli yükte)
-Sensör Haberleşmesi	RS-485 / Modbus RTU
+Kontrol Mimarisi	Akıllı Karar Katmanı + PLC Destekli Güvenli IO
+Haberleşme	Wi-Fi (kablosuz arayüz bağlantısı)
+Kuru Kontak Çıkışı	10 Röle (NO - Normalde Açık)
+Maks. Röle Akımı	6A (Dirençli yükte)
 pH Ölçüm
 Özellik	Değer
 Ölçüm Aralığı	0.00 - 14.00 pH
@@ -111,21 +115,21 @@ Sıcaklık Ölçüm (PT100)
 Ölçüm Aralığı	-50°C - 150°C
 Hassasiyet	±0.5°C
 Çözünürlük	0.1°C
-4. KUTU İÇERİĞİ
-HYDROSMART PRO Kontrol Ünitesi
+4-20mA analog çıkış (opsiyonel PLC entegrasyonu için) |
 
-Kullanım Kılavuzu
+5. KUTU İÇERİĞİ
+📦 HYDROSMART PRO Kontrol Ünitesi
+📦 pH/EC/Sıcaklık Transmitteri (RS-485 Modbus + 4-20mA çıkışlı)
+📦 pH Probu
+📦 EC Probu
+📦 PT100 Sıcaklık Probu
+📦 Kullanım Kılavuzu
+📦 Montaj Aparatı
 
-Montaj Aparatı
 
-Not: EC, pH ve sıcaklık probları, transmitter, pompa, vana gibi saha ekipmanları kutu içeriğine dahil değildir.
 
-5. MONTAJ VE BAĞLANTILAR
-5.1. Bağlantı Şeması
-text
-[ GÖRSEL: Bağlantı şeması buraya eklenecek ]
 5.2. Röle Çıkışları (Kuru Kontak)
-Tüm röle çıkışları potansiyelsiz (kuru kontak) olup "Normalde Açık" (NO) konfigürasyondadır. Bağlayacağınız pompa, vana veya motorun güç gereksinimine göre harici kontaktör veya röle kullanmanız önerilir.
+Tüm röle çıkışları potansiyelsiz (kuru kontak) olup "Normalde Açık" (NO) konfigürasyondadır. Bağlayacağınız pompa, vana veya motorun güç gereksinimine göre harici kontaktör veya güç rölesi kullanmanız kesinlikle önerilir.
 
 Röle	Fonksiyon	Açıklama
 R1	NPK-A Pompası	EC yükseltmek için kullanılan A besin pompası.
@@ -136,41 +140,18 @@ R5	Karıştırıcı Motor	Tanktaki suyu karıştıran motor.
 R6	Sulama Pompası	Hazırlanan suyu bitkilere gönderen pompa.
 R7	Dolum Valfi	Tankı dolduran vana.
 R8	Alarm	Herhangi bir hata veya acil durumda aktif olan alarm çıkışı.
-5.3. Sensör Bağlantıları (Modbus RTU)
-Sensörler RS-485 haberleşme protokolü kullanır. Kablo bağlantılarında ekranlı ve bükümlü çift (twisted pair) kablo kullanılması önerilir. Maksimum kablo mesafesi 20 metredir.
 
-Terminal	Sinyal	Renk (Örnek)	Açıklama
-A (D+)	RS-485 A	Sarı	Pozitif veri hattı
-B (D-)	RS-485 B	Beyaz	Negatif veri hattı
-GND	Ortak Toprak	Siyah	Sinyal toprağı
-Transmitter Bağlantısı: EC ve pH transmitter'ları, yukarıdaki A, B ve GND uçlarına paralel olarak bağlanır. (Adresleme için transmitter üzerindeki DIP switch ayarlarının yapıldığından emin olun).
 
-5.4. Seviye Sensörü Bağlantıları
-Terminal	Sinyal	Açıklama
-GPIO04	Düşük Seviye	Tank boşalma seviyesi (NPN tip, inverted)
-GPIO14	Yüksek Seviye	Tank dolma seviyesi (NPN tip)
-5.5. Acil Durdurma Butonu Bağlantısı
-Terminal	Sinyal	Açıklama
-GPIO21	Acil Stop	Normalde açık (NO) buton bağlanır. Butona basıldığında sistem acil durdurma moduna geçer.
-6. İLK KURULUM VE EŞLEŞTİRME
-6.1. Cihazın Enerjilendirilmesi
-Tüm bağlantıları dikkatlice yaptıktan sonra cihazı 12-24V DC ile besleyin. Cihaz üzerindeki LED yanmalıdır.
 
-6.2. Home Assistant'a Ekleme (ESPHome)
-Home Assistant arayüzünüzde Ayarlar → Cihazlar & Servisler menüsüne gidin.
+6.2. Kablosuz Arayüze Bağlantı
 
-Sayfanın sağ alt köşesindeki "Cihaz Ekle" butonuna tıklayın.
+Tablet veya bilgisayarınızdan cihazın yayınladığı Wi-Fi ağına bağlanın.
+Tarayıcınızı açıp http://hydrosmart.local adresine gidin.
+Açılan sayfada kendi Wi-Fi ağınızın bilgilerini girerek cihazı ev/ofis ağınıza ekleyin.
+Home Assistant kullanıyorsanız, entegrasyon otomatik olarak algılanacaktır.
+Eşleştirme tamamlandıktan sonra tüm sensörler, butonlar ve kontroller arayüzünüze otomatik olarak eklenecektir.
 
-Listeden ESPHome'u seçin.
 
-Cihazınızın Wi-Fi ağınızda görünmesi için birkaç saniye bekleyin. "HYDROSMART PRO" veya benzer bir isimle listelenecektir.
-
-Cihazı bulduğunuzda üzerine tıklayın ve ekrandaki talimatları izleyerek eşleştirme işlemini tamamlayın.
-
-Eşleştirme tamamlandıktan sonra tüm sensörler, butonlar ve kontroller Home Assistant arayüzünüze otomatik olarak eklenecektir.
-
-7. ARAYÜZ VE KONTROLLER
-Home Assistant'a başarıyla eklendikten sonra, cihaz için özel olarak hazırlanmış kartları (dashboard) kullanabilirsiniz.
 
 7.1. Ana Ekran
 Ana ekranda sistemin anlık durumunu gösteren temel bilgiler bulunur:
@@ -179,7 +160,7 @@ Ana ekranda sistemin anlık durumunu gösteren temel bilgiler bulunur:
 
 Sistem Mesajı: Anlık işlem, hata veya uyarı mesajları.
 
-FSM Debug: Aktif döngünün hangi aşamada olduğu ve geçen süre.
+Ek ayrıntılar: Aktif döngünün hangi aşamada olduğu ve geçen süre.
 
 Mod Durumu: Çalışma modu, transmitter durumu, döngü durumu ve mod kodu.
 
@@ -265,7 +246,7 @@ pH probunu 7.0 pH kalibrasyon solüsyonuna daldırın.
 
 Birkaç saniye bekleyin (ekrandaki değerin stabil hale gelmesi için).
 
-Home Assistant arayüzünden "pH 7.0 Kalibrasyon" butonuna tıklayın.
+Panel veya web arayüzünden "pH 7.0 Kalibrasyon" butonuna tıklayın.
 
 İşlem tamamlandığında ekranda "pH 7.0 kalibrasyonu yapıldı" mesajı görünecektir.
 
@@ -274,7 +255,7 @@ EC probunu 1413 µS/cm kalibrasyon solüsyonuna daldırın.
 
 Probu hafifçe hareket ettirerek üzerindeki hava kabarcıklarının çıkmasını sağlayın ve değerin stabil hale gelmesini bekleyin.
 
-Home Assistant arayüzünden "EC 1413 Kalibrasyon" butonuna tıklayın.
+Panel veya web arayüzünden "EC 1413 Kalibrasyon" butonuna tıklayın.
 
 İşlem tamamlandığında ekranda "EC 1413 kalibrasyonu yapıldı" mesajı görünecektir.
 
@@ -287,18 +268,19 @@ Hedef pH	Ulaşılmak istenen pH değeri (Örn: 5.8).
 pH Tolerans	Hedef pH'dan izin verilen sapma miktarı (Örn: 0.15).
 Hedef EC	Ulaşılmak istenen EC değeri (µS/cm) (Örn: 1200).
 EC Tolerans	Hedef EC'den izin verilen sapma miktarı (Örn: 50).
-A Pompası Çalışma Süresi	EC düşük olduğunda A pompasının her bir dozda çalışacağı süre (saniye).
-A Pompası Bekleme Süresi	A pompası dozajları arasında beklenecek süre (saniye).
-B Pompası Çalışma Süresi	EC düşük olduğunda B pompasının her bir dozda çalışacağı süre (saniye).
-B Pompası Bekleme Süresi	B pompası dozajları arasında beklenecek süre (saniye).
-Asit Pompası Çalışma Süresi	pH yüksek olduğunda asit pompasının her bir dozda çalışacağı süre (saniye).
-Asit Pompası Bekleme Süresi	Asit pompası dozajları arasında beklenecek süre (saniye).
+A Pompası Çalışma Süresi	EC düşük olduğunda A pompasının her bir dozda çalışacağı süre (saniye).  (prof modda)
+A Pompası Bekleme Süresi	A pompası dozajları arasında beklenecek süre (saniye).  (prof modda)
+B Pompası Çalışma Süresi	EC düşük olduğunda B pompasının her bir dozda çalışacağı süre (saniye).  (prof modda)
+B Pompası Bekleme Süresi	B pompası dozajları arasında beklenecek süre (saniye).  (prof modda)
+Asit Pompası Çalışma Süresi	pH yüksek olduğunda asit pompasının her bir dozda çalışacağı süre (saniye).  (prof modda)
+Asit Pompası Bekleme Süresi	Asit pompası dozajları arasında beklenecek süre (saniye).  (prof modda)
 Karıştırma Süresi	Her dozajdan sonra karıştırıcının çalışacağı süre (saniye).
 Stabilizasyon Bekleme	Karıştırma sonrası çözeltinin stabilize olması için beklenecek süre (saniye).
 Onay Bekleme Süresi	Manuel onay modunda, kullanıcının sulamayı onaylaması için beklenen maksimum süre (saniye).
 Maksimum EC Dozaj	Bir döngüde yapılabilecek maksimum EC dozaj sayısı.
 Maksimum pH Dozaj	Bir döngüde yapılabilecek maksimum pH dozaj sayısı.
 Maksimum Karıştırma	Bir döngüde yapılabilecek maksimum karıştırma sayısı.
+
 10.2. STANDART Mod Ayarları
 Ayar	Açıklama
 Tank Dolum Süresi	Tankın dolması için beklenen maksimum süre (saniye). Süre sonunda vana kapanır ve döngü devam eder.
@@ -310,13 +292,14 @@ Asit Pompası Çalışma Süresi	Standart döngüde asit pompasının çalışac
 C Pompası Çalışma Süresi	Standart döngüde C pompasının çalışacağı süre (saniye).
 Karıştırma Süresi	Standart döngüde karıştırıcının çalışacağı süre (saniye).
 Stabilizasyon Süresi	Standart döngüde son karıştırma sonrası beklenecek süre (saniye).
+
 10.3. C Pompası Planlı Çalışma
 Bu pompa, ana döngüden bağımsız olarak periyodik ek besleme yapmak için kullanılır.
-
 Ayar	Açıklama
 C Pompası Modu	Pasif, Günlük veya Haftalık.
 C Pompası Günü	Haftalık modda pompanın çalışacağı gün.
 C Pompası Çalışma Saati	Pompanın çalışacağı saat (tam saatte çalışır).
+
 10.4. Güvenlik Limitleri ve Zaman Aşımları
 Ayar	Açıklama
 Tank Dolum Timeout	Tank dolum aşamasında maksimum bekleme süresi. Aşılırsa alarm verir ve döngü durur.
@@ -326,9 +309,10 @@ pH Ölçüm Timeout	pH ölçüm aşamasında maksimum bekleme süresi.
 pH Dozaj Timeout	pH dozaj aşamasında maksimum bekleme süresi.
 Stabilizasyon Timeout	Stabilizasyon aşamasında maksimum bekleme süresi.
 Sulama Ek Timeout	Sulama aşamasında ek bekleme süresi.
+
 11. SIK KARŞILAŞILAN SORUNLAR VE ÇÖZÜMLERİ
 Sorun	Olası Neden	Çözüm
-Cihaz Home Assistant'da görünmüyor.	Wi-Fi bağlantı sorunu, cihaz enerjisiz.	Cihazın enerjisini kontrol edin. Modeminizi ve cihazı yeniden başlatın. ESPHome eşleştirme işlemini tekrarlayın.
+Cihaz Home Assistant'da görünmüyor.	Wi-Fi bağlantı sorunu, cihaz enerjisiz.	Cihazın enerjisini kontrol edin. Modeminizi ve cihazı yeniden başlatın.
 EC/pH değerleri okunmuyor veya "NAN" görünüyor.	Sensör bağlantı sorunu, transmitter enerjisiz, yanlış Modbus adresi.	Transmitter bağlantılarını (A, B, GND) ve beslemesini kontrol edin. Transmitter üzerindeki adresin 1 olduğundan emin olun.
 EC değeri çok düşük veya çok yüksek gösteriyor.	Sensör kirlenmiş, kalibrasyon bozulmuş, prob arızalı.	Probu temizleyin. 1413 µS solüsyonu ile kalibrasyonu tekrarlayın. Probun kullanım ömrünü kontrol edin.
 pH değeri çok düşük veya çok yüksek gösteriyor.	Sensör kirlenmiş, kalibrasyon bozulmuş, prob arızalı, referans elektroliti bitmiş.	Probu temizleyin. 7.0 pH solüsyonu ile kalibrasyonu tekrarlayın. Prob bakımını yapın veya değiştirin.
@@ -336,18 +320,16 @@ Pompalar çalışmıyor.	Röle bağlantı sorunu, harici kontaktör arızası, a
 Döngü başlamıyor veya takılıp kalıyor.	Acil durdurma aktif, tank boş, sensör hatası, zaman aşımı.	Acil durdurma butonunu kontrol edip resetleyin. Tank seviyesini kontrol edin. Log'lardan hata mesajını okuyun.
 Sistem sürekli asit/EC dozajı yapıyor, hedefe ulaşamıyor.	Maksimum dozaj limiti çok yüksek, hedef değer çok iddialı, dozaj süreleri çok kısa.	Maksimum dozaj limitlerini kontrol edin. Hedef değerleri bitki türüne göre optimize edin. Dozaj sürelerini artırın.
 Manuel onayda zaman aşımı oluyor.	Kullanıcı onay vermedi, onay bekleme süresi çok kısa.	Sulamayı onaylamak için "Sulamayı Onayla" butonuna basın. Ayarlardan onay bekleme süresini uzatın.
-12. BAKIM
+
+13. BAKIM
 Sensör Temizliği: EC ve pH problarını düzenli olarak temiz suyla durulayın ve yumuşak bir bezle kurulayın. Kireç veya tortu oluşumu varsa, hafif bir deterjan veya özel temizleme solüsyonu kullanabilirsiniz.
 
 Kalibrasyon: Doğru ölçümler için probları ayda en az bir kez kalibre edin.
 
 Kablolar: Tüm kablo bağlantılarını periyodik olarak kontrol edin. Gevşemiş veya hasar görmüş kablo olup olmadığını inceleyin.
 
-Cihaz Tozu: Cihazın üzerini kuru bir bezle tozdan arındırın. Sıvı temasından kaçının.
 
 13. İLETİŞİM VE DESTEK
 HYDROSMART PRO'nuzla ilgili her türlü soru, sorun veya öneri için bize ulaşabilirsiniz.
-
-Web Sitesi: www.drelitegrow.com
 
 Ürünümüzü tercih ettiğiniz için teşekkür ederiz. İyi çalışmalar!
