@@ -9,37 +9,69 @@
 Besleme Sürecini Yöneten Endüstriyel Kontrol Platformu
 
 KULLANIM KILAVUZU
+
 İÇİNDEKİLER
+
 Güvenlik Uyarıları
+
 Ürün Tanımı
+
 Teknik Özellikler
+
 Kutu İçeriği
+
 Montaj ve Bağlantılar
+
 5.1. Bağlantı Şeması
+
 5.2. Röle Çıkışları (Kuru Kontak)
+
 5.3. Sensör Bağlantıları (Modbus RTU)
+
 5.4. Seviye Sensörü Bağlantıları
+
 5.5. Acil Durdurma Butonu Bağlantısı
+
 İlk Kurulum ve Eşleştirme
+
 6.1. Cihazın Enerjilendirilmesi
+
 6.2. Kablosuz Arayüze Bağlantı
+
 Arayüz ve Kontroller
+
 7.1. Ana Ekran
+
 7.2. Durum Göstergeleri
+
 7.3. Butonlar
+
 Çalışma Modları
+
 8.1. 🌱 Standart Mod (Zaman Tabanlı)
+
 8.2. ⚡ Prof Mod (Sensör Tabanlı)
+
 Sensör Kalibrasyonu
+
 9.1. pH Kalibrasyonu
+
 9.2. EC Kalibrasyonu
+
 Arayüz Elemanları ve Ayarlar
+
 10.1. PROF Mod Ayarları
+
 10.2. STANDART Mod Ayarları
+
 10.3. C Pompası Planlı Çalışma
+
 10.4. Güvenlik Limitleri ve Zaman Aşımları
+
 Sık Karşılaşılan Sorunlar ve Çözümleri
+
 Bakım
+
 İletişim ve Destek
 
 1. GÜVENLİK UYARILARI
