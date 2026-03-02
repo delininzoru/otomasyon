@@ -117,9 +117,7 @@ Hassasiyet	±0.5°C
 4-20mA analog çıkış (opsiyonel PLC entegrasyonu için) |
 
 4. KUTU İÇERİĞİ
-   
 📦 HYDROSMART PRO Kontrol Ünitesi
-
 📦 pH/EC/Sıcaklık Transmitteri (RS-485 Modbus + 4-20mA çıkışlı)
 
 📦 pH Probu
