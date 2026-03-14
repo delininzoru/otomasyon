@@ -3,7 +3,8 @@
 
 ⚠️ Bu kılavuzdaki tüm teknik terimler endüstriyel standartları ifade eder.
    Cihaz, akıllı karar katmanı ve güvenli PLC mimarisi ile çalışır.
-   
+
+![HYDROSMART PRO Tablet Arayüzü](tablet-arayuz-yeni.jpeg)
 ![HYDROSMART PRO](IMG20260115195311.jpg)
 
 Besleme Sürecini Yöneten Endüstriyel Kontrol Platformu
