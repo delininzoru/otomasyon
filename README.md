@@ -148,12 +148,13 @@ R6	Sulama Pompası	Hazırlanan suyu bitkilere gönderen pompa.
 R7	Dolum Valfi	Tankı dolduran vana.
 R8	Alarm	Herhangi bir hata veya acil durumda aktif olan alarm çıkışı.
 
-6.2. Kablosuz Arayüze Bağlantı
-Tablet veya bilgisayarınızdan cihazın yayınladığı Wi-Fi ağına bağlanın.
-Tarayıcınızı açıp http://hydrosmart.local adresine gidin.
-Açılan sayfada kendi Wi-Fi ağınızın bilgilerini girerek cihazı ev/ofis ağınıza ekleyin.
-Home Assistant kullanıyorsanız, entegrasyon otomatik olarak algılanacaktır.
-Eşleştirme tamamlandıktan sonra tüm sensörler, butonlar ve kontroller arayüzünüze otomatik olarak eklenecektir.
+Sistem 10.1 inç endüstriyel dokunmatik tablet ile teslim edilir. Tablet kutusundan çıkar çıkmaz kullanıma hazırdır.
+Üzerinde HYDROSMART PRO arayüzü yüklü olarak gelir. Tablet prize takıldığında arayüz otomatik olarak başlar ve sürekli açık kalır.
+
+Tabletin güç tuşuna basarak ekranı kapatabilir veya açabilirsiniz. Ekran kapalıyken güç tuşuna bir kez basmak ekranı anında açar ve arayüz hazır halde karşınıza gelir. 
+Herhangi bir şifre girmeniz veya adres yazmanız gerekmez.
+
+İhtiyaç halinde telefon, bilgisayar veya başka bir tabletten de sisteme bağlanmak isterseniz, cihazınızla aynı Wi-Fi ağına bağlanıp tarayıcınıza hydrosmart.local yazarak arayüze erişebilirsiniz.
 
 7.1. Ana Ekran
 Ana ekranda sistemin anlık durumunu gösteren temel bilgiler bulunur:
@@ -228,18 +229,27 @@ Kullanım Alanı: Su kalitesi değişkenlik gösteren, farklı besin formülleri
 9. SENSÖR KALİBRASYONU
 Doğru ölçümler için sensörlerin düzenli olarak kalibre edilmesi gerekir (Önerilen: Ayda 1).
 
-9.1. pH Kalibrasyonu
-pH probunu 7.0 pH kalibrasyon solüsyonuna daldırın.
-Birkaç saniye bekleyin (ekrandaki değerin stabil hale gelmesi için).
-Panel veya web arayüzünden "pH 7.0 Kalibrasyon" butonuna tıklayın.
-İşlem tamamlandığında ekranda "pH 7.0 kalibrasyonu yapıldı" mesajı görünecektir.
+pH Kalibrasyonu
 
-9.2. EC Kalibrasyonu
-EC probunu 1413 µS/cm kalibrasyon solüsyonuna daldırın.
-Probu hafifçe hareket ettirerek üzerindeki hava kabarcıklarının çıkmasını sağlayın ve değerin stabil hale gelmesini bekleyin.
-Panel veya web arayüzünden "EC 1413 Kalibrasyon" butonuna tıklayın.
-İşlem tamamlandığında ekranda "EC 1413 kalibrasyonu yapıldı" mesajı görünecektir.
-Not: Kalibrasyon öncesinde mevcut kalibrasyonu sıfırlamak için "EC Kalibrasyon Sıfırla" butonu kullanılabilir.
+pH probunu 7.0 pH kalibrasyon solüsyonuna daldırın.
+Birkaç saniye bekleyin.
+Arayüzden pH 7.0 Kalibrasyon butonuna tıklayın.
+Ekranda pH 7.0 kalibrasyonu yapıldı mesajı görünecektir.
+
+pH probunu saf su ile durulayıp kurulayın.
+pH probunu 4.0 pH kalibrasyon solüsyonuna daldırın.
+Birkaç saniye bekleyin.
+Arayüzden pH 4.0 Kalibrasyon butonuna tıklayın.
+Ekranda pH 4.0 kalibrasyonu yapıldı mesajı görünecektir.
+
+EC Kalibrasyonu
+
+9.2. EC probunu 1413 µS/cm kalibrasyon solüsyonuna daldırın.
+Probu hafifçe hareket ettirerek hava kabarcıklarını çıkarın.
+Değerin stabilize olmasını bekleyin.
+Arayüzden EC 1413 Kalibrasyon butonuna tıklayın.
+Ekranda EC 1413 kalibrasyonu yapıldı mesajı görünecektir.
+
 
 10. ARAYÜZ ELEMANLARI VE AYARLAR
 10.1. PROF Mod Ayarları
